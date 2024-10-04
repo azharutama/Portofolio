@@ -1,30 +1,22 @@
-.jumbotron {
-  padding-top: 6rem;
-  background-image: url("bg3.jpg");
-  background-size: cover;
-  color: rgb(254, 255, 254);
+html {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
 }
 
-#about {
-  background-color: #007d7d;
+body {
+  background-color: white;
+  color: black;
+}
+#navbar {
+  transition: background-color 0.3s ease;
 }
 
-#service h2 {
-  margin-bottom: 20px;
+.text-color {
+  color: black;
+  transition: color 0.3s ease;
 }
 
-#contact {
-  background-color: #fff;
-}
-
-section {
-  padding-top: 5rem;
-}
-
-#product {
-  background-color: #fff;
-}
-
-#service {
-  background-color: #007d7d;
+.navbar-toggler-icon {
+  transition: background-image 0.3s ease;
 }
