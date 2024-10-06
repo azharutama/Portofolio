@@ -4,6 +4,10 @@ html {
   margin: 0px;
 }
 
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
 body {
   background-color: white;
   color: black;
@@ -19,4 +23,8 @@ body {
 
 .navbar-toggler-icon {
   transition: background-image 0.3s ease;
+}
+
+a {
+  text-decoration: none;
 }
